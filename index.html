@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="scroll-indicator">
+        <div class="progress">
+        </div>
+    </div>
+<div id="header">
+<section id="Home"></section>
+        <div class="container">
+            <nav>
+                <img src="Images/Logo2.png" class="logo">
+            <ul>
+                <li><a href="#Home" class="link">Home</a></li>
+                <li><a href="#Profile" class="profile">Profile<s/a></li>
+                <li><a href="#Activities" class="a">Activities</a></li>
+                <li><a href="#projects" class="link">Projects</a></li>
+                <li><a href="#certificates" class="link">Certificates</a></li>
+            </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Chokvichit Leelavanichakul</h1>
+                <br>
+                <p>This Portfolio I created to represent and present documents and information about personal record educational,<br>
+                    <br>
+                    record knowledge,
+                    abilities, skills, and special interests. including certificates as well as my development in <br> 
+                    <br>
+                    various fields
+                    I hope that this portfolio will make everyone who reads it understand the value and abilities of<br> 
+                    <br>
+                    my total thankyou to the teachers who provided advice in collecting
+                    documents evidence and various information <br>
+                    <br>
+                    in preparing this portfolio. this edition was a success and i would like to thank my father and my mother for their <br>
+                    <br>
+                    support
+                    and advice for making this portfolio even more complete.
+                </p>
+            </div>
+        </div>
+    </div>
+
+ <!--Profile-->
+ <section id="Profile">
+    <div class="container-about">
+        <div class="row">
+            <div class="about1">
+                <img src="Images/Screenshot 2024-02-26 193522.png" alt="">
+            </div>
+            <div class="about2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <h2><span class="hob"><strong>HOBBY:</strong></span> GUITAR BAKETBALL CODING</h2>
+                <h2><span class="hob"><strong>SKILLS:</strong></span> PYTHON HTML CSS JAVASCRIPT SQL UX/UI EDITING</h2>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'personal')"><strong>PERSONAL INFORMATION</strong></p>
+                    <p class="tab-links" onclick="opentab(event, 'family')"><strong>FAMILY</strong></p>
+                    <p class="tab-links" onclick="opentab(event, 'contact')"><strong>CONTACT</strong></p>
+                </div>
+                <div class="tab-contents active-tab" id="personal">
+                    <ul>
+                        <li><strong>Born:</strong> 11 April 2005</li>
+                        <li><strong>Age:</strong> 18 years</li>
+                        <li><strong>Nationality:</strong> Thai</li>
+                        <li><strong>Education:</strong> Science-Math</li>
+                        <li><strong>Height:</strong> 178</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="family">
+                    <ul>
+                        <li><strong>Father:</strong> Chokchai Leelavanichakul</li>
+                        <li><strong>Occupation:</strong> Business man</li>
+                        <li><strong>Tel:</strong> 081-920-3251</li>
+                        <li><strong>Mother:</strong> Paphavadee Vuthipong</li>
+                        <li><strong>Occupation:</strong> Housewife</li>
+                        <li><strong>Tel:</strong> 081-989-4166</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="contact">
+                    <ul>
+                        <li><strong>Tel:</strong> 064-9929-479</li>
+                        <li><strong>Email:</strong> chokvichit24656@gmail.com</li>
+                        <li><strong>Social media:</strong> @Tae_Chokvichit</li>
+                        <li><strong>Address:</strong> Bangkok Sukhapiban, Bang Ramat Rd., Sala Thammasop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Actitivites-->
+<section id="Activities"></section>
+    <h1 class="act-h">ACTIVITES</h1>
+        <div class="wrapper">
+            <div class="card">
+                <img src="Images/Academic1.jpg"/>
+                <div class="info">
+                    <h1>Academic Day</h1>
+                    <p>I'm in the game department, so I need to make decorations for students in my school in order to make a game. During those periods, I'm a bodyguard at the entrance in order to ensure that people inside our zone not too crowded.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="Images/School_ani.jpg"/>
+                <div class="info">
+                    <h1>School Anniversary</h1>
+                    <p>I'm in the game sector ,so I need to build a game for visitors. The games that my friends and I build are about teamwork, first is control the car game and second is a lego game.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="Images/Ghost.png"/>
+                <div class="info">
+                    <h1>Ghost movie</h1>
+                    <p>This is the ghost movie that I made with my friends. This movie is for a computer project, and my role is editing and acting</p>
+                </div>
+            </div>
+        </div>
+     
+</section>
+    
+    
+</section>
+
+<!--Projects-->
+<section id="projects">
+    <div class="projects-container">
+        <div class="projects-header">
+            <h1 class="section-title">PROJECTS</h1>
+        </div>
+        <div class="all-projects">
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>CALCULATOR</h1>
+                    <h2>Python-Gui</h2>
+                   
+                </div>
+                <div class="project-img">
+                    <img src="Images/Calculator.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>NOTEPAD</h1>
+                    <h2>Python-Gui</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/Notepad.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>AREA-CALCULATOR</h1>
+                    <h2>Python-Gui</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/width.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>CHECKLIST</h1>
+                    <h2>Python-Gui</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/list.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>PORTFOLIO_WEBSITE</h1>
+                    <h2>HTML CSS JAVASCRIPT</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/port.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>PORTFOLIO_DESIGN</h1>
+                    <h2>FIGMA/UX_UI</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/uxui_fig1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>HAND DETECTION</h1>
+                    <h2>Python-CV2</h2>
+                    <p>Library Mediapipe  https://developers.google.com/mediapipe/solutions/vision/hand_landmarker</p>
+                </div>
+                <div class="project-img">
+                    <img src="Images/cv_python1.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>POSTURE COUNT</h1>
+                    <h2>Python-CV2</h2>
+                    <p> Library Mediapipe https://developers.google.com/mediapipe/solutions/examples</p>
+                </div>
+                <div class="project-img">
+                    <img src="Images/posture count.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>GHOST MOVIE</h1>
+                    <h2>Editing</h2>
+                    <p>https://www.youtube.com/watch?v=5Os_upYCStA</p>
+                </div>
+                <div class="project-img">
+                    <img src="Images/Ghost.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>WORD COUNTING</h1>
+                    <h2>HTML CSS JAVASCRIPT</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/count.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>SOUND EFFECT</h1>
+                    <h2>HTML CSS JAVASCRIPT</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/soundboard.png" alt="img">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>BMI CALCULATOR</h1>
+                    <h2>HTML CSS JAVASCRIPT</h2>
+                    
+                </div>
+                <div class="project-img">
+                    <img src="Images/Screenshot 2024-03-19 101953.png" alt="img">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!--Certificate-->
+
+<section id="certificates" class="container-cer">
+    <h1 class="cer-h">CERTIFICATES</h1>
+    <div class="slideshow">
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img1.jpg" alt="">
+            </div>
+            <h2>Javascript Project </h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img2.png" alt="">
+            </div>
+            <h2>Python-Gui</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img3.png" alt="">
+            </div>
+            <h2>UX/UI</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img4.jpg" alt="">
+            </div>
+            <h2>Basic Python</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img5.jpg" alt="">
+            </div>
+            <h2>Academic day</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img6.jpg" alt="">
+            </div>
+            <h2>Data Science</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img7.jpg" alt="">
+            </div>
+            <h2>School Anniversary</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img8.png" alt="">
+            </div>
+            <h2>Network And Security</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img9.jpg" alt="">
+            </div>
+            <h2>Internet Of Things</h2>
+        </div>
+        <div class="card-cer">
+            <div class="img-cer">
+                <img src="Images/img10.png" alt="">
+            </div>
+            <h2>Smart Electronics And Sensor</h2>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="prev-btn"><i class="fa-solid fa-circle-left"></i></button>
+        <button class="next-btn"><i class="fa-solid fa-circle-arrow-right"></i></button>
+    </div>
+</section>
+
+<footer>
+    <div class="foot-con">
+        <div class="foot-icons">
+            <a href="https://www.facebook.com/profile.php?id=100007480184685"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tae_chokvichit/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/channel/UCNENG7Z3kAt0l43bZop0fTg"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footNav">
+            <ul>
+                <li><a href="#Home" class="link">Home</a></li>
+                <li><a href="#Profile" class="profile">Profile</a></li>
+                <li><a href="#Activities" class="a">Activities</a></li>
+                <li><a href="#projects" class="link">Projects</a></li>
+                <li><a href="#certificates" class="link">Certificates</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footBottom">
+        <span class="designer">Created By <a href="https://github.com/">Chokvichit Leelavanichakul</a> | <span><i class="far fa-copyright"></i></span> 2024</span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    <button onclick="scrollToTop()" class="scrollup" title="Scroll to Top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="app.js"></script>
+
+
+</body>
+</html>
+
